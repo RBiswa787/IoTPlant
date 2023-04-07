@@ -61,6 +61,7 @@ st.write("Just Upload your Plant's Leaf Image and get predictions if the plant i
 # Setting the files that can be uploaded
 uploaded_file = st.file_uploader("Choose a Image file", type=["png", "jpg"])
 
+
 # If there is a uploaded file, start making prediction
 if uploaded_file != None:
     
